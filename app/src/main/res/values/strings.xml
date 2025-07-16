@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Practice</string>
+
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="submit_button">Submit</string>
+    <string name="random_image">Random Image</string>
+    <string name="registration">Registration</string>
+    <string name="image_desc">Image loaded from internet</string>
+
+    <string name="email_display">Email: %s</string>
+    <string name="password_display">Password: %s</string>
 </resources>
