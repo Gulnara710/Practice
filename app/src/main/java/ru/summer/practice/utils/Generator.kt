@@ -9,8 +9,8 @@ object Generator {
         return listOf(
             ListPageItemModel(
                 imageUrl = "https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg",
-                title = "First cat sample First cat sample First cat sample First cat sample First cat sample",
-                description = "First cat textdfsfsfsgsgtextdfsfsfsgsgtextdfsfsfsgsgtextdfstextdfsfsfsgsgtextdfsfsfsgsgfsfsgsgtextdfsfsfsgsg",
+                title = "First cat sample",
+                description = "First cat sfsfsgsg",
             ),
             ListPageItemModel(
                 imageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoDim25Sj5loXJbpYM0NKMZI2geNtFbDme5A&s",

@@ -20,8 +20,8 @@ class Screen1 : Fragment() {
     private lateinit var allImageUrls: List<String>
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?,
+        inflater: LayoutInflater, container: ViewGroup?,
     ): View {
         return inflater.inflate(R.layout.screen1, container, false)
     }
