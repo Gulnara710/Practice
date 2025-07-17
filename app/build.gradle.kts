@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.summer.practice"
+    namespace = "ru.summer.practice"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.summer.practice"
+        applicationId = "ru.summer.practice"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -43,4 +43,12 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation(libs.glide)
+    implementation(libs.fragment)
+    implementation(libs.navigation.ui)
+    implementation(libs.navigation.fragment)
+    implementation(libs.constraintlayout)
+    implementation(libs.androidx.activity)
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.recyclerview)
 }
