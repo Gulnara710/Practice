@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/Screen1">
+
+    <fragment
+        android:id="@+id/Screen1"
+        android:name="ru.summer.practice.screens.Screen1"
+        android:label="Screen1" >
+        <action
+            android:id="@+id/action_firstFragment_to_secondFragment"
+            app:destination="@id/Screen2" />
+    </fragment>
+    <fragment
+        android:id="@+id/Screen2"
+        android:name="ru.summer.practice.screens.Screen2"
+        android:label="Screen2" />
+</navigation>

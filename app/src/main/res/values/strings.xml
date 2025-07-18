@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Practice</string>
+    <string name="detail_image_desc">Image of detail</string>
 </resources>
